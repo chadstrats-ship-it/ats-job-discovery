@@ -1,0 +1,32 @@
+# Example public job boards for --all-companies. Each slug was checked against the live public API
+# (HTTP 200 with a valid payload) when this file was written. Boards change; a slug that later 404s is skipped
+# with a warning.
+#
+# Fields: ats (greenhouse | lever | ashby | workable | recruitee | smartrecruiters), slug (the board's public
+# identifier in its careers URL), name (display name, optional).
+companies:
+  - {ats: greenhouse, slug: stripe, name: Stripe}
+  - {ats: greenhouse, slug: airbnb, name: Airbnb}
+  - {ats: greenhouse, slug: cloudflare, name: Cloudflare}
+  - {ats: greenhouse, slug: datadog, name: Datadog}
+  - {ats: greenhouse, slug: figma, name: Figma}
+  - {ats: greenhouse, slug: coinbase, name: Coinbase}
+  - {ats: greenhouse, slug: gitlab, name: GitLab}
+  - {ats: greenhouse, slug: reddit, name: Reddit}
+  - {ats: greenhouse, slug: discord, name: Discord}
+  - {ats: greenhouse, slug: dropbox, name: Dropbox}
+  - {ats: lever, slug: spotify, name: Spotify}
+  - {ats: lever, slug: palantir, name: Palantir}
+  - {ats: lever, slug: outreach, name: Outreach}
+  - {ats: lever, slug: wealthfront, name: Wealthfront}
+  - {ats: ashby, slug: ramp, name: Ramp}
+  - {ats: ashby, slug: notion, name: Notion}
+  - {ats: ashby, slug: openai, name: OpenAI}
+  - {ats: ashby, slug: linear, name: Linear}
+  - {ats: ashby, slug: supabase, name: Supabase}
+  - {ats: workable, slug: huggingface, name: Hugging Face}
+  - {ats: recruitee, slug: bunq, name: bunq}
+  - {ats: recruitee, slug: personio, name: Personio}
+  - {ats: smartrecruiters, slug: servicenow, name: ServiceNow}
+  - {ats: smartrecruiters, slug: experian, name: Experian}
+  - {ats: smartrecruiters, slug: sodexo, name: Sodexo}

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 330" width="980" height="330" role="img" aria-labelledby="t d">
+  <title id="t">ats-job-discovery pipeline</title>
+  <desc id="d">A company slug and ATS name go through an injectable HTTP layer to a per-ATS fetcher, producing normalised Job records, which are filtered, scored with a YAML config and printed as a ranked table or JSON.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .box { fill: #f8fafc; stroke: #475569; stroke-width: 1.5; }
+      .accent { fill: #e0f2fe; stroke: #0369a1; stroke-width: 1.5; }
+      .cfg { fill: #fef9c3; stroke: #a16207; stroke-width: 1.5; }
+      .net { fill: #dcfce7; stroke: #15803d; stroke-width: 1.5; }
+      .t { font: 600 14px sans-serif; fill: #0f172a; text-anchor: middle; }
+      .s { font: 12px sans-serif; fill: #334155; text-anchor: middle; }
+      .l { font: 11px sans-serif; fill: #475569; text-anchor: middle; }
+      .line { stroke: #475569; stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+      .dash { stroke: #a16207; stroke-width: 1.5; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="980" height="330" fill="#ffffff"/>
+
+  <!-- input -->
+  <rect class="box" x="10" y="120" width="140" height="70" rx="8"/>
+  <text class="t" x="80" y="148">--company slug</text>
+  <text class="s" x="80" y="168">--ats greenhouse | lever</text>
+  <text class="s" x="80" y="182">ashby | workable | ...</text>
+
+  <!-- http -->
+  <rect class="net" x="190" y="40" width="150" height="70" rx="8"/>
+  <text class="t" x="265" y="68">HTTP layer</text>
+  <text class="s" x="265" y="86">UrllibHttp: polite, retries</text>
+  <text class="s" x="265" y="100">public JSON only</text>
+
+  <rect class="box" x="190" y="200" width="150" height="60" rx="8"/>
+  <text class="t" x="265" y="228">--fixture file</text>
+  <text class="s" x="265" y="246">FixtureHttp: offline</text>
+
+  <!-- fetchers -->
+  <rect class="accent" x="380" y="110" width="150" height="90" rx="8"/>
+  <text class="t" x="455" y="138">Fetcher</text>
+  <text class="s" x="455" y="156">one per ATS (6)</text>
+  <text class="s" x="455" y="172">parse + normalise</text>
+  <text class="s" x="455" y="186">HTML to text</text>
+
+  <!-- job -->
+  <rect class="box" x="570" y="120" width="110" height="70" rx="8"/>
+  <text class="t" x="625" y="148">Job</text>
+  <text class="s" x="625" y="166">company, title,</text>
+  <text class="s" x="625" y="180">location, remote, ...</text>
+
+  <!-- filters -->
+  <rect class="accent" x="720" y="40" width="120" height="80" rx="8"/>
+  <text class="t" x="780" y="68">Filters</text>
+  <text class="s" x="780" y="86">remote, US, degree,</text>
+  <text class="s" x="780" y="100">clearance, age, title</text>
+
+  <!-- scorer -->
+  <rect class="accent" x="720" y="190" width="120" height="80" rx="8"/>
+  <text class="t" x="780" y="218">Scorer</text>
+  <text class="s" x="780" y="236">role, skills, remote,</text>
+  <text class="s" x="780" y="250">pay, recency, years</text>
+
+  <!-- yaml -->
+  <rect class="cfg" x="860" y="115" width="110" height="90" rx="8"/>
+  <text class="t" x="915" y="143">scoring.yaml</text>
+  <text class="s" x="915" y="161">target_roles</text>
+  <text class="s" x="915" y="175">skills, weights</text>
+  <text class="s" x="915" y="189">filters, ...</text>
+
+  <!-- output -->
+  <rect class="box" x="570" y="260" width="110" height="56" rx="8"/>
+  <text class="t" x="625" y="284">Ranked output</text>
+  <text class="s" x="625" y="302">table or --json</text>
+
+  <!-- arrows -->
+  <path class="line" d="M150,145 L190,85"/>
+  <path class="line" d="M150,165 L190,225"/>
+  <path class="line" d="M340,85 L380,135"/>
+  <path class="line" d="M340,230 L380,175"/>
+  <path class="line" d="M530,155 L570,155"/>
+  <path class="line" d="M680,140 L720,95"/>
+  <path class="line" d="M780,120 L780,190"/>
+  <path class="dash" d="M860,160 L840,225"/>
+  <path class="dash" d="M860,140 L840,85"/>
+  <path class="line" d="M720,245 L680,285"/>
+  <text class="l" x="786" y="160" style="text-anchor:start">kept jobs</text>
+</svg>

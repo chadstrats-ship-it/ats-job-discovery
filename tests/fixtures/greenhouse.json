@@ -1,0 +1,64 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://stripe.com/jobs/search?gh_jid=8172503",
+   "education": "education_required",
+   "internal_job_id": 3537060,
+   "location": {
+    "name": "Remote from the US"
+   },
+   "id": 8172503,
+   "updated_at": "2026-09-25T16:45:00-04:00",
+   "requisition_id": "See Opening ID",
+   "title": "Abuse Research Engineer",
+   "company_name": "Stripe",
+   "first_published": "2026-09-09T10:52:09-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important wo",
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false
+  },
+  {
+   "absolute_url": "https://stripe.com/jobs/search?gh_jid=6042172",
+   "education": "education_required",
+   "internal_job_id": 2900860,
+   "location": {
+    "name": "US-Remote, Chicago, Seattle, San Francisco"
+   },
+   "id": 6042172,
+   "updated_at": "2026-09-25T16:44:31-04:00",
+   "requisition_id": "See Opening ID",
+   "title": "Backend Engineer, Core Technology",
+   "company_name": "Stripe",
+   "first_published": "2024-06-14T18:04:50-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;h2&gt;Who we are&lt;/h2&gt;\n&lt;h3&gt;About Stripe&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world&#39;s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/p&gt;\n&lt;h3&gt;A",
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false
+  },
+  {
+   "absolute_url": "https://stripe.com/jobs/search?gh_jid=8044460",
+   "education": "education_required",
+   "internal_job_id": 3486653,
+   "location": {
+    "name": "Chicago"
+   },
+   "id": 8044460,
+   "updated_at": "2026-09-25T16:44:48-04:00",
+   "requisition_id": "See Opening ID",
+   "title": "AI Engineer",
+   "company_name": "Stripe",
+   "first_published": "2026-07-03T08:01:02-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;h2&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world&#39;s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the",
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false
+  }
+ ],
+ "meta": {
+  "total": 3
+ }
+}

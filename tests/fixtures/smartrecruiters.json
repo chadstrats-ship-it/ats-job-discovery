@@ -1,0 +1,357 @@
+{
+ "offset": 0,
+ "limit": 100,
+ "totalFound": 3,
+ "content": [
+  {
+   "id": "744000153871309",
+   "name": "Software Engineer",
+   "uuid": "ff7fdb80-9c88-425a-9b5f-afd135461578",
+   "jobAdId": "b5adc9b0-7c3a-4efe-b231-856f4a51dad2",
+   "defaultJobAd": true,
+   "refNumber": "JB0075018",
+   "company": {
+    "identifier": "ServiceNow",
+    "name": "ServiceNow"
+   },
+   "releasedDate": "2026-10-06T22:57:35.315Z",
+   "location": {
+    "city": "Santa Clara",
+    "region": "CALIFORNIA",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "Santa Clara, CALIFORNIA, United States"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "2294038",
+    "label": "Engineering, Infrastructure and Operations"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000153871309",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000153834444",
+   "name": "Sr Staff Software Engineer ( AI Agents, Observability)",
+   "uuid": "b2d3a9c6-16cb-4492-b893-c59b1e7def50",
+   "jobAdId": "70410295-cc9d-41ad-92a2-1873b6833056",
+   "defaultJobAd": true,
+   "refNumber": "JB0075914",
+   "company": {
+    "identifier": "ServiceNow",
+    "name": "ServiceNow"
+   },
+   "releasedDate": "2026-10-06T18:09:02.188Z",
+   "location": {
+    "city": "Santa Clara",
+    "region": "CALIFORNIA",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "fullLocation": "Santa Clara, CALIFORNIA, United States"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "2294038",
+    "label": "Engineering, Infrastructure and Operations"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000153834444",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  {
+   "id": "744000153800019",
+   "name": "Principal Product Success Architect",
+   "uuid": "ef9a5188-b1b7-420a-af3e-cd82fb607fbd",
+   "jobAdId": "2a0857f0-5b56-4b6e-a56c-d9371ea9575b",
+   "defaultJobAd": true,
+   "refNumber": "JB0075709",
+   "company": {
+    "identifier": "ServiceNow",
+    "name": "ServiceNow"
+   },
+   "releasedDate": "2026-10-06T15:20:57.579Z",
+   "location": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "fullLocation": "Austin, Texas, United States"
+   },
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "department": {
+    "id": "2294089",
+    "label": "Support and Product Success"
+   },
+   "function": {
+    "id": "consulting",
+    "label": "Consulting"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "visibility": "PUBLIC",
+   "ref": "https://api.smartrecruiters.com/v1/companies/servicenow/postings/744000153800019",
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  }
+ ],
+ "details": {
+  "744000153871309": {
+   "id": "744000153871309",
+   "name": "Software Engineer",
+   "uuid": "ff7fdb80-9c88-425a-9b5f-afd135461578",
+   "jobId": "feb3bbb2-45ad-4d3a-a607-4d5863d9ada3",
+   "jobAdId": "b5adc9b0-7c3a-4efe-b231-856f4a51dad2",
+   "defaultJobAd": true,
+   "refNumber": "JB0075018",
+   "company": {
+    "name": "ServiceNow",
+    "identifier": "ServiceNow"
+   },
+   "location": {
+    "city": "Santa Clara",
+    "region": "CALIFORNIA",
+    "country": "us",
+    "remote": false,
+    "hybrid": false,
+    "fullLocation": "Santa Clara, CALIFORNIA, United States"
+   },
+   "releasedDate": "2026-10-06T22:57:35.315Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153871309-software-engineer",
+   "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153871309-software-engineer?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/ServiceNow/publication/ff7fdb80-9c88-425a-9b5f-afd135461578?dcr_ci=ServiceNow",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "title": "Job Description",
+      "text": "<p>This role is for an engineer who is beginning their software engineering career and learning to build reliable, maintainable AI-native and cloud-native software. The IC2 engineer works on well-defined features and components with close guidance from senior engineers and tech leads. They focus on developing solid software engineering fundamentals, gaining hands-on experience with modern development practices, and learning to integrate AI/ML services into applications. This role provides mentorship and opportunities to grow technical depth in Python, Java, JavaScript, and ServiceNow platform "
+     },
+     "qualifications": {
+      "title": "Qualifications",
+      "text": "<ul><li><p>Bachelor's degree in computer science, engineering, or related field (or equivalent practical experience)&#xa0;</p></li></ul><ul><li><p>2-5&#xa0;years of professional software development experience&#xa0;</p></li></ul><ul><li><p>Proficiency&#xa0;in at least one programming language (Python, Java, or JavaScript); willingness to learn others&#xa0;</p></li></ul><ul><li><p>Understanding of fundamental software engineering concepts: version control, testing, debugging&#xa0;</p></li></ul><ul><li><p>Basic knowledge of relational databases and SQL&#xa0;</p></li></ul><ul><li><p>Familiarity w"
+     },
+     "additionalInformation": {
+      "title": "Additional Information",
+      "text": "<p><strong>Work Personas</strong></p><p>We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. <a href=\"https://careers.servicenow.com/life-at-servicenow#workpersonas\" rel=\"noopener noreferrer\"><u>Learn more here</u></a>. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service.</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "department": {
+    "id": 2294038,
+    "label": "Engineering, Infrastructure and Operations"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  "744000153834444": {
+   "id": "744000153834444",
+   "name": "Sr Staff Software Engineer ( AI Agents, Observability)",
+   "uuid": "b2d3a9c6-16cb-4492-b893-c59b1e7def50",
+   "jobId": "06341cd6-819e-4735-a6c3-f3aa3900a6b6",
+   "jobAdId": "70410295-cc9d-41ad-92a2-1873b6833056",
+   "defaultJobAd": true,
+   "refNumber": "JB0075914",
+   "company": {
+    "name": "ServiceNow",
+    "identifier": "ServiceNow"
+   },
+   "location": {
+    "city": "Santa Clara",
+    "region": "CALIFORNIA",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "fullLocation": "Santa Clara, CALIFORNIA, United States"
+   },
+   "releasedDate": "2026-10-06T18:09:02.188Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153834444-sr-staff-software-engineer-ai-agents-observability-",
+   "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153834444-sr-staff-software-engineer-ai-agents-observability-?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/ServiceNow/publication/b2d3a9c6-16cb-4492-b893-c59b1e7def50?dcr_ci=ServiceNow",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "title": "Job Description",
+      "text": "<p><strong>Job Description</strong></p><p>Come join our team. We're rapidly expanding <strong>AI agents for Observability group </strong>and building a new generation of <strong>AI Agents</strong> designed to transform how enterprises investigate, respond to, and remediate critical incidents and alerts. Our mission is to reduce mean time to resolution (MTTR) by orders of magnitude, turning reactive firefighting into proactive, intelligent automation.</p><p>The <strong>AI agents for Observability </strong>combines the <strong>intelligence of large language models</strong>, the <strong>predictiv"
+     },
+     "qualifications": {
+      "title": "Qualifications",
+      "text": "<ul><li>12+ years of experience building scalable software applications using Java or a similar object-oriented programming language</li><li>Strong experience with JavaScript or TypeScript and modern frontend engineering practices</li><li>Strong foundation in data structures, algorithms, object-oriented design, and performance optimization</li><li>Proven expertise in <strong>multi-agent systems design</strong>: orchestration frameworks, agent communication patterns, state management across distributed agents.</li><li>&#xa0;Practical experience <strong>integrating foundation models and LLMs</st"
+     },
+     "additionalInformation": {
+      "title": "Additional Information",
+      "text": "<p><strong>Work Personas</strong></p><p>We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. <a href=\"https://careers.servicenow.com/life-at-servicenow#workpersonas\" rel=\"noopener noreferrer\"><u>Learn more here</u></a>. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service.</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "function": {
+    "id": "engineering",
+    "label": "Engineering"
+   },
+   "department": {
+    "id": 2294038,
+    "label": "Engineering, Infrastructure and Operations"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  },
+  "744000153800019": {
+   "id": "744000153800019",
+   "name": "Principal Product Success Architect",
+   "uuid": "ef9a5188-b1b7-420a-af3e-cd82fb607fbd",
+   "jobId": "737a96af-5d76-406d-a60c-e782975df321",
+   "jobAdId": "2a0857f0-5b56-4b6e-a56c-d9371ea9575b",
+   "defaultJobAd": true,
+   "refNumber": "JB0075709",
+   "company": {
+    "name": "ServiceNow",
+    "identifier": "ServiceNow"
+   },
+   "location": {
+    "city": "Austin",
+    "region": "Texas",
+    "country": "us",
+    "remote": true,
+    "hybrid": false,
+    "fullLocation": "Austin, Texas, United States"
+   },
+   "releasedDate": "2026-10-06T15:20:57.579Z",
+   "postingUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153800019-principal-product-success-architect",
+   "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000153800019-principal-product-success-architect?oga=true",
+   "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/ServiceNow/publication/ef9a5188-b1b7-420a-af3e-cd82fb607fbd?dcr_ci=ServiceNow",
+   "jobAd": {
+    "sections": {
+     "jobDescription": {
+      "title": "Job Description",
+      "text": "<p>Role Description</p><p>Principal AI Strategists on the PACE team play a critical role in guiding customers through their AI</p><p>transformation journey by leading business alignment, strategic advisory, and value realization activities</p><p>for ServiceNow’s AI capabilities.</p><p>Operating independently as the lead strategist on engagements, they drive AI roadmapping, governance</p><p>advisory, and organizational change management planning to ensure customers achieve long-term</p><p>business value from ServiceNow’s AI products including Now Assist, AI Agents, and Predictive</p><p>Intellig"
+     },
+     "qualifications": {
+      "title": "Qualifications",
+      "text": "<p>What are the unique job responsibilities for this role?</p><ul><li>5 years of experience working as a consultant in Software or technology industries</li><li>5 years of experience on the ServiceNow platform</li><li>3+ years of experience working with multiple AI tools and LLM's</li></ul><p>• Operates independently as the lead AI strategist on customer engagements; drives business alignment</p><p>and value conversations</p><p>• Develops AI roadmaps to drive customer adoption and successful utilization of AI products across the</p><p>ServiceNow platform</p><p>• Leads AI value discovery and re"
+     },
+     "additionalInformation": {
+      "title": "Additional Information",
+      "text": "<p><strong>Work Personas</strong></p><p>We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. <a href=\"https://careers.servicenow.com/life-at-servicenow#workpersonas\" rel=\"noopener noreferrer\"><u>Learn more here</u></a>. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service.</p>"
+     }
+    }
+   },
+   "active": true,
+   "visibility": "PUBLIC",
+   "industry": {
+    "id": "it_and_services",
+    "label": "Information Technology And Services"
+   },
+   "function": {
+    "id": "consulting",
+    "label": "Consulting"
+   },
+   "department": {
+    "id": 2294089,
+    "label": "Support and Product Success"
+   },
+   "experienceLevel": {
+    "id": "not_applicable",
+    "label": "Not Applicable"
+   },
+   "typeOfEmployment": {
+    "id": "permanent",
+    "label": "Full-time"
+   },
+   "language": {
+    "code": "en",
+    "label": "English",
+    "labelNative": "English (US)"
+   }
+  }
+ }
+}

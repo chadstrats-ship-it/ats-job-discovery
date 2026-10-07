@@ -1,0 +1,111 @@
+[
+ {
+  "additionalPlain": "The United States base range for this position is $116,994 - $167,135 USD, plus equity. The benefits available for this position include health insurance, six-month paid parental leave, 401(k) retirement plan, monthly meal allowance, 23 paid days off, paid flexible holidays, and paid sick leave. These ranges may be modified in the future.\n\n\nSpotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have rep",
+  "additional": "<div>The United States base range for this position is $116,994 - $167,135 USD, plus equity. The benefits available for this position include health insurance, six-month paid parental leave, 401(k) retirement plan, monthly meal allowance, 23 paid days off, paid flexible holidays, and paid sick leave. These ranges may be modified in the future.</div><div><br></div><div><span style=\"font-size: 11pt;\">Spotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for eve",
+  "categories": {
+   "commitment": "Permanent",
+   "department": "Data and Analytics",
+   "location": "New York, NY",
+   "team": "Music",
+   "allLocations": [
+    "New York, NY"
+   ]
+  },
+  "createdAt": 1782148440858,
+  "descriptionPlain": "The Music Mission enables music creators to grow, engage, and monetize their fan bases on Spotify. Central to the Music Mission's vision is the development of promotional tools for artists and label teams, powered by Spotify's deep knowledge of listener behavior. Products like Discovery Mode, Marquee, Showcase, Music Videos, and Clips help artists and their teams grow their audiences, connect with fans, and achieve their goals on Spotify.\nWe're looking for a Data Scientist to join Discovery Mode within the Music Mission. Discovery Mode is a tool for artists and music marketers designed to help",
+  "description": "<p>The Music Mission enables music creators to grow, engage, and monetize their fan bases on Spotify. Central to the Music Mission's vision is the development of promotional tools for artists and label teams, powered by Spotify's deep knowledge of listener behavior. Products like Discovery Mode, Marquee, Showcase, Music Videos, and Clips help artists and their teams grow their audiences, connect with fans, and achieve their goals on Spotify.</p>\n<p>We're looking for a Data Scientist to join Discovery Mode within the Music Mission. Discovery Mode is a tool for artists and music marketers design",
+  "id": "1bbaf909-5ff3-4ed6-87ca-f7ff007a169c",
+  "lists": [
+   {
+    "text": "What You'll Do",
+    "content": "\n<li>Own the analytical function for the Discovery Mode ML squad, driving evaluation and continuous improvement of the models that power measurement and campaign optimization</li>\n<li>Partner with ML engineers to develop evaluation frameworks and identify opportunities to improve model performance, reliability, and customer impact</li>\n<li>Design and execute rigorous experiments to evaluate model quality, measure outcomes, and guide model development</li>\n<li>Conduct deep-dive analyses to assess model performance and translate findings into clear, actionable recommendations for product and bus"
+   },
+   {
+    "text": "Who You Are",
+    "content": "\n<li>You have 4+ years of experience in a data science role and a degree in data science, statistics, economics, mathematics, or a related quantitative field</li>\n<li>You have experience measuring customer outcomes, defining KPIs, and connecting analytical insights to product decisions</li>\n<li>You know how to design and implement A/B tests, understand when experimentation is the right tool, and interpret results with appropriate rigor</li>\n<li>You have experience evaluating machine learning model performance and partnering with ML engineers to improve model and customer outcomes</li>\n<li>You "
+   },
+   {
+    "text": "Where You'll Be",
+    "content": "<div>\n\n<li>We offer you the flexibility to work where you work best! For this role, you can be within the EST timezone region as long as we have a work location.</li>\n<li>This team operates within the Eastern Standard time zone for collaboration.</li>\n\n</div>"
+   }
+  ],
+  "text": "Data Scientist - Music Mission",
+  "country": "US",
+  "workplaceType": "remote",
+  "hostedUrl": "https://jobs.lever.co/spotify/1bbaf909-5ff3-4ed6-87ca-f7ff007a169c",
+  "applyUrl": "https://jobs.lever.co/spotify/1bbaf909-5ff3-4ed6-87ca-f7ff007a169c/apply"
+ },
+ {
+  "additionalPlain": "Spotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have represented and amplified in our business, the more we will all thrive, contribute, and be forward-thinking! So bring us your personal experience, your perspectives, and your background. It’s in our differences that we will find the power to keep revolutionizing the way the world listens.\n \nAt Spotify, we are passionate about inclusivity and ma",
+  "additional": "<div><span style=\"font-size: 11pt;\">Spotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have represented and amplified in our business, the more we will all thrive, contribute, and be forward-thinking! So bring us your personal experience, your perspectives, and your background. It’s in our differences that we will find the power to keep revolutionizing the way the world listens.</span></div>\n<div>",
+  "categories": {
+   "commitment": "Permanent",
+   "department": "Engineering",
+   "location": "Stockholm",
+   "team": "Platform",
+   "allLocations": [
+    "Stockholm",
+    "London"
+   ]
+  },
+  "createdAt": 1790854925650,
+  "descriptionPlain": "",
+  "description": "<div>\n<p>LilEngine is leading the Lakehouse, a company-strategic effort to make Apache Iceberg a first-class citizen in Spotify's data ecosystem. We're building it in close collaboration with Google, on open standards, so that different kinds of data are queryable the same way and teams can bring the right engine, from BigQuery to Dataflow to Trino, to the job.</p>\n<p>The work has two parts. Hecate enables Iceberg for the Parquet datasets that already exist across Spotify, so teams get the benefits without rewriting their data. Alongside it, we're building the foundations of a new Lakehouse ar",
+  "id": "926149ab-6999-4058-b35d-41e302b70e05",
+  "lists": [
+   {
+    "text": "What You'll Do",
+    "content": "<div>\n\n<li><strong>Build and evolve the lakehouse:</strong> Help build the foundations that let data workflows read and write Iceberg tables directly, from this cycle's MVP to a production-grade platform.</li>\n<li><strong>Drive adoption:&nbsp;</strong>Help migrate data pipelines from across Spotify onto the new stack, making the move as painless as possible through tooling, standards and hands-on support.</li>\n<li><strong>Own BigQuery at Spotify scale:</strong> Manage reservations and capacity, build monitoring and anti-pattern detection, and develop tooling like the BigQuery MCP server so tea"
+   },
+   {
+    "text": "Who You Are",
+    "content": "<div>\n\n<li>You have solid experience building and operating backend services in production with Java or Scala.</li>\n<li>You're comfortable on GCP and Kubernetes. You can read kubectl output, reason about IAM and quotas, and work with CRDs and operators. You don't need deep expertise in all of these on day one.</li>\n<li>You've worked with Apache Iceberg or JVM-based processing frameworks like Spark, Beam or Flink, or with a cloud data warehouse such as BigQuery, Snowflake or Databricks.</li>\n<li>You think in systems and can connect the dots when a problem crosses several layers of the stack.</l"
+   },
+   {
+    "text": "Where You'll Be",
+    "content": "<div>This role is based in London or Stockholm.</div>\n<div>&nbsp;</div>\n<div>We offer the flexibility to work where you work best! There will be some in person meeetings, but still allows for flexibility to work from home.&nbsp;</div>"
+   }
+  ],
+  "text": "Backend Engineer - Data Platform",
+  "country": "SE",
+  "workplaceType": "hybrid",
+  "hostedUrl": "https://jobs.lever.co/spotify/926149ab-6999-4058-b35d-41e302b70e05",
+  "applyUrl": "https://jobs.lever.co/spotify/926149ab-6999-4058-b35d-41e302b70e05/apply"
+ },
+ {
+  "additionalPlain": "The United States base range for this position is $132,948–$189,927 USD, plus equity. The benefits available for this position include health insurance, six-month paid parental leave, 401(k) retirement plan, monthly meal allowance, 23 paid days off, paid flexible holidays, and paid sick leave. These ranges may be modified in the future.\n\n\nSpotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have repre",
+  "additional": "<div>The United States base range for this position is $132,948–$189,927 USD, plus equity. The benefits available for this position include health insurance, six-month paid parental leave, 401(k) retirement plan, monthly meal allowance, 23 paid days off, paid flexible holidays, and paid sick leave. These ranges may be modified in the future.</div><div><br></div><div><span style=\"font-size: 11pt;\">Spotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for every",
+  "categories": {
+   "commitment": "Permanent",
+   "department": "Engineering",
+   "location": "New York, NY",
+   "team": "Platform",
+   "allLocations": [
+    "New York, NY"
+   ]
+  },
+  "createdAt": 1790275959195,
+  "descriptionPlain": "The Platform team creates the technology that enables Spotify to learn quickly and scale easily, enabling rapid growth in our users and our business around the globe. Spanning many disciplines, we work to make the business work; creating the infrastructure, tooling, frameworks, and capabilities needed to welcome a billion customers.\n \nSecurity engineers at Spotify protect our platform, employees, creators, and more than 700 million users. We are looking for an experienced Security Engineer to join the Detection and Response organization and help identify, investigate, and respond to threats ac",
+  "description": "<div>\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial, sans-serif;\">The Platform team creates the technology that enables Spotify to learn quickly and scale easily, enabling rapid growth in our users and our business around the globe. Spanning many disciplines, we work to make the business work; creating the infrastructure, tooling, frameworks, and capabilities needed to welcome a billion customers.</span></p>\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\">&nbsp;</p>\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; ",
+  "id": "cb29d857-395b-401d-9749-367e666ff870",
+  "lists": [
+   {
+    "text": "What You'll Do",
+    "content": "<div>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;\">\n<li style=\"font-size: 11pt; font-family: Arial, sans-serif;\">\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt;\">Identify detection opportunities, define clear telemetry requirements, and partner with the detection infrastructure squad and data owners to make the signals needed for detection and investigation available.</span></p>\n</li>\n<li style=\"font-size: 11pt; font-family: Arial, sans-serif;\">\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt;\">Develop,"
+   },
+   {
+    "text": "Who You Are",
+    "content": "<div>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;\">\n<li style=\"font-size: 11pt; font-family: Arial, sans-serif;\">\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt;\">You are curious, collaborative, and comfortable making progress in an ambiguous and rapidly changing environment.</span></p>\n</li>\n<li style=\"font-size: 11pt; font-family: Arial, sans-serif;\">\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt;\">You have 3+ years of hands-on experience in security operations, incident response, threat detection, d"
+   },
+   {
+    "text": "Where You'll Be",
+    "content": "<div>\n<ul style=\"margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;\">\n<li style=\"font-size: 11pt; font-family: Arial, sans-serif;\">\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt;\">This role is based in New York</span></p>\n</li>\n<li style=\"font-size: 11pt; font-family: Arial, sans-serif;\">\n<p style=\"margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt;\">We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.</span></p>\n</li>\n\n</ul></div>"
+   }
+  ],
+  "text": "Security Engineer - Detection and Response",
+  "country": "US",
+  "workplaceType": "remote",
+  "hostedUrl": "https://jobs.lever.co/spotify/cb29d857-395b-401d-9749-367e666ff870",
+  "applyUrl": "https://jobs.lever.co/spotify/cb29d857-395b-401d-9749-367e666ff870/apply"
+ }
+]

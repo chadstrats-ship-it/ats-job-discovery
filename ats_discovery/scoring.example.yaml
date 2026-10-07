@@ -1,0 +1,108 @@
+# ats-job-discovery: example scoring configuration (generic values; copy and edit).
+# Every key is optional. Unknown keys are rejected so typos fail loudly.
+# With the defaults below a perfect posting scores about 98 (role 40 + skills 25 + remote 10 + salary 7
+# + recency 6 + experience base 10), clamped to 0-100.
+
+# --- role match -------------------------------------------------------------------------------------------
+# A title that contains every word of any target role earns the full role_max_points; near-misses get partial credit.
+target_roles:
+  - software engineer
+  - backend engineer
+  - data engineer
+role_max_points: 40
+
+# --- skills -----------------------------------------------------------------------------------------------
+# keyword: weight. Matched case-insensitively as a whole word in the title and the first description_chars of the
+# description. Prefix a key with "re:" to use a raw regular expression. The weights of all matched skills are summed;
+# the skill score is skill_max_points * min(1, total / skill_saturation).
+skills:
+  python: 1.5
+  sql: 1.0
+  aws: 1.0
+  typescript: 1.5
+  javascript: 1.0
+  react: 1.0
+  postgres: 1.0
+  docker: 0.7
+  kubernetes: 0.7
+  terraform: 0.5
+  "rest api": 0.8
+  "re:\\bgo(lang)?\\b": 0.8
+skill_max_points: 25
+skill_saturation: 8
+description_chars: 3500
+
+# --- remote bonus -----------------------------------------------------------------------------------------
+# Points for a remote posting by inferred scope. "unverified" = the text only mentions remote work loosely.
+remote_bonus:
+  us: 10
+  worldwide: 9
+  unknown: 4.5
+  other: 0
+  unverified: 3
+
+# --- salary (optional) ------------------------------------------------------------------------------------
+# Compares listed USD pay with your floor. Leave both floors null to switch salary scoring off.
+salary:
+  floor_usd_per_year: 100000
+  floor_usd_per_hour: 50
+  max_points: 7
+  unknown_points: 4        # neutral score when the posting lists no pay
+
+# --- recency ----------------------------------------------------------------------------------------------
+# max age in days: points. Older than the largest key scores 0.
+recency:
+  3: 6
+  7: 5
+  14: 4
+  21: 2.5
+  30: 1.5
+recency_unknown_points: 3
+
+# --- experience fit ---------------------------------------------------------------------------------------
+# The posting's required years (highest hard requirement) are compared with your own range.
+experience:
+  base_points: 10
+  min_years: 1
+  max_years: 6
+  over_penalty_per_year: 5     # points lost per year above max_years
+  under_penalty_per_year: 0    # points lost per year below min_years
+  max_penalty: 30
+
+# --- title adjustments ------------------------------------------------------------------------------------
+# Case-insensitive regexes searched in the title. Boosts add points; penalties are written as positive numbers
+# and subtracted.
+title_boosts:
+  founding: 3
+  "full[- ]?stack": 1
+title_penalties:
+  "staff|principal|distinguished": 15
+  "head of|director|vp|vice president": 15
+  "intern(ship)?": 20
+
+# Soft penalty when a clearance is only "eligible to obtain" / "may require".
+clearance_soft_penalty: 3
+
+# Keep postings whose title barely resembles a target role from ranking high on skills alone:
+# if the role score is below role_fraction of its maximum, the total is capped at max_total.
+off_target:
+  role_fraction: 0.4
+  max_total: 54
+
+# --- filters ----------------------------------------------------------------------------------------------
+# Hard rules applied before scoring. A failing posting is dropped. Pass --no-filters to the CLI to bypass them,
+# or switch individual rules off here.
+filters:
+  require_remote: true            # drop on-site and hybrid postings
+  require_us: true                # drop remote postings scoped to another region, or demanding non-US work authorisation
+  reject_degree_required: true    # drop when a degree is stated as strictly required (no "or equivalent experience")
+  reject_active_clearance: true   # drop when an ACTIVE security clearance is mandatory ("eligible to obtain" is only a soft penalty)
+  max_age_days: 30                # drop postings older than this; null disables
+  max_years_required: null        # drop when the description requires more years than this; null disables
+  title_include:                  # regexes; a title must match at least one (empty list = no gate)
+    - "engineer|developer|programmer|architect"
+  title_exclude:                  # regexes; any match drops the posting
+    - "sales|account (executive|manager)|business development"
+    - "recruit|talent|legal|counsel|finance|accountant|payroll"
+    - "designer|copywriter|marketing|support (specialist|agent)"
+    - "intern(ship)?|apprentice"
